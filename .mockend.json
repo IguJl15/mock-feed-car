@@ -46,12 +46,16 @@
       "boolean": {}
     }
   },
+  
   "Comment": {
+    "author": {
+      "belongsTo": "User"
+    },
     "authorPost": {
       "belongsTo": "Post"
     },
     "text": {
-      "loremParagraphs": { "minLength": 200, "maxLength": 500 }
+      "loremParagraphs": { "minLength": 15, "maxLength": 100 }
     }
 
 

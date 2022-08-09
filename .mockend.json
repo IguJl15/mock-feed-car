@@ -1,27 +1,28 @@
 {
   "Post": {
-    "user": {
+    "author": {
       "belongsTo": "User"
     },
-    "description": {
+    "details": {
       "loremSentences": {
         "minLength": 100,
         "maxLength": 200
       }
     },
-    "value": {
+    
+    "vehicle": {
+      "belongsTo": "Vehicle"
+    },
+    "price": {
       "int": {
         "min": 29000,
         "max": 159000
       }
     },
-    "vehicle": {
-      "belongsTo": "Vehicle"
-    },
     "likes": {
       "int": {
         "min": 0,
-        "max": 40
+        "max": 30
       }
     },
     "comments": {

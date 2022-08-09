@@ -16,7 +16,7 @@
       }
     },
     "car": {
-      "belongsTo": "Car"
+      "belongsTo": "Vehicle"
     },
     "likes": {
       "int": {
@@ -47,6 +47,16 @@
     "automatic": {
       "boolean": {}
     }
+  },
+  "Comment": {
+    "authorPost": {
+      "belongsTo": "Post"
+    },
+    "text": {
+      "loremParagraphs": { "minLength": 200, "maxLength": 500 }
+    }
+    
+
   },
   "User": {
     "userName": { "regexp": "[A-Z][a-z]{5,10}" },

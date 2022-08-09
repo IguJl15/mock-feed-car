@@ -49,12 +49,7 @@
     }
   },
   "User": {
-    "userName": {
-      "string": {
-        "minLength": 3,
-        "maxLength": 18
-      }
-    },
+    "userName": { "string": { "minLength": 3, "maxLength": 10 } },
     "name": {
       "string": {}
     },

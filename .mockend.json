@@ -29,7 +29,7 @@
     }
   },
   "Vehicle": {
-    "brand": [
+    "brand": {"string": [
       "Audi",
       "BMW",
       "BYD",
@@ -59,7 +59,7 @@
       "Troller",
       "Volkswagen",
       "Volvo"
-    ],
+    ]},
     "model": {
       "loremWord": {}
     },
@@ -72,7 +72,7 @@
     "automatic": {
       "boolean": {}
     },
-    "imageUrl": [
+    "imageUrl": {"string": [
       "https://st2.depositphotos.com/3591429/5247/i/950/depositphotos_52470577-stock-photo-red-car-on-white-background.jpg",
 "https://st3.depositphotos.com/24436428/32632/i/1600/depositphotos_326325420-stock-photo-rendering-brand-less-generic-concept.jpg",
 "https://st2.depositphotos.com/3591429/8106/i/950/depositphotos_81067810-stock-photo-design-elegance-automobile.jpg",
@@ -84,7 +84,7 @@
 "https://st2.depositphotos.com/3591429/8326/i/950/depositphotos_83265228-stock-photo-brandless-car-vehicle-concept.jpg",
 "https://st2.depositphotos.com/3591429/8171/i/950/depositphotos_81718180-stock-photo-design-elegance-automobile.jpg",
 "https://st2.depositphotos.com/3591429/9752/i/950/depositphotos_97526800-stock-photo-modern-car-illustration.jpg"
-    ]
+    ]}
   },
   "Comment": {
     "author": {

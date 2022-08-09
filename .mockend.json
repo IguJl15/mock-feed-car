@@ -15,7 +15,7 @@
         "max": 159000
       }
     },
-    "car": {
+    "vehicle": {
       "belongsTo": "Vehicle"
     },
     "likes": {
@@ -33,10 +33,7 @@
       "loremWord": {}
     },
     "model": {
-      "loremWords": {
-        "minLength": 1,
-        "maxLength": 2
-      }
+      "loremWord": {}
     },
     "year": {
       "int": {
@@ -55,7 +52,7 @@
     "text": {
       "loremParagraphs": { "minLength": 200, "maxLength": 500 }
     }
-    
+
 
   },
   "User": {

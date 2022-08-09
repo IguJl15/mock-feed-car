@@ -49,7 +49,7 @@
     }
   },
   "User": {
-    "userName": { "string": { "minLength": 3, "maxLength": 10 } },
+    "userName": { "regexp": "[A-Z][a-z]{5,10}" },
     "name": {
       "string": {}
     },

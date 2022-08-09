@@ -1,31 +1,74 @@
 {
+  "Post": {
+    "user": {
+      "belongsTo": "User"
+    },
+    "description": {
+      "loremSentences": {
+        "minLength": 100,
+        "maxLength": 200
+      }
+    },
+    "value": {
+      "int": {
+        "min": 29000,
+        "max": 159000
+      }
+    },
+    "car": {
+      "belongsTo": "Car"
+    },
+    "likes": {
+      "int": {
+        "min": 0,
+        "max": 40
+      }
+    },
+    "comments": {
+      "hasMany": "Comment"
+    }
+  },
+  "Vehicle": {
+    "brand": {
+      "loremWord": {}
+    },
+    "model": {
+      "loremWords": {
+        "minLength": 1,
+        "maxLength": 2
+      }
+    },
+    "year": {
+      "int": {
+        "min": 2000,
+        "max": 2022
+      }
+    },
+    "automatic": {
+      "boolean": {}
+    }
+  },
   "User": {
+    "userName": {
+      "string": {
+        "minLength": 3,
+        "maxLength": 18
+      }
+    },
     "name": {
       "string": {}
     },
     "avatarUrl": {
       "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
     },
-    "statusMessage": {
-      "string": [
-        "working from home",
-        "watching Netflix"
-      ]
-    },
     "email": {
       "regexp": "#[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
-    },
-    "color": {
-      "regexp": "#[0-9A-F]{6}"
     },
     "age": {
       "int": {
         "min": 21,
         "max": 100
       }
-    },
-    "isPublic": {
-      "boolean": {}
     }
   }
 }
